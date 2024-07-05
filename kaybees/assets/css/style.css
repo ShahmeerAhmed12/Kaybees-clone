@@ -1,0 +1,107 @@
+/* header start  */
+
+.logo{
+    justify-content: center;
+    border-radius: 70px;
+    margin-right: -10px;
+    border: 2px solid yellow;
+    width: 120px;
+    
+}
+
+.navbar{
+    height: 70px;
+    border: 3px solid rgb(255, 255, 0);;
+}
+
+.bt1{
+    margin-bottom: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(8, 8, 141);
+    color: #ffffff;
+}
+
+.bt2{
+    margin-right: 10px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: rgb(8, 8, 141);
+}
+
+/* header end  */
+#menu {
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/* nav & tabs */
+.a .nav{
+   margin-top: 50px;
+   margin-left: 10px;
+}
+
+.a .nav .nav-link{
+    margin-bottom: 30px;
+    background-color: rgb(119, 185, 247);
+    color: #fdf900;
+}
+
+.a .nav .nav-link.active{
+    color: #f8ecec;
+    background-color: rgb(2, 20, 189);
+    border-radius: 10px;
+}
+/* nav & tabs */
+
+
+/* media query */
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(255, 242, 242); 
+
+    }
+    header{
+        background-color: #f8ecec;
+    }
+    .a{
+        background-color: #d3e90a;
+    }
+}
+
+
+@media only screen and (min-width:701px){
+    body{
+        background-color: rgb(204, 0, 0);
+    }
+    header{
+        background-color: #ec1010;
+    }
+    .a{
+        background-color: #ec1010;
+    }
+}
+
+
+@media only screen and (min-width:801px){
+    body{
+        background-color: rgb(11, 240, 30);
+    }
+    .a{
+        background-color: #56ec10;
+    }
+}
+
+
+@media only screen and (min-width:901px){
+    body{
+        background-color: rgb(184, 221, 17);
+    }
+    .a{
+        background-color: #fafafa;
+    }
+}
